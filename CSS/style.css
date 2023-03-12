@@ -1,8 +1,8 @@
 
 
-
   body{
-    background-color: gray;
+    background-image: linear-gradient(90deg, rgb(44, 44, 44), white);
+    
   }
 
  .container{
@@ -52,6 +52,7 @@
   #result{
     padding: 30px;
     font-weight: bolder;
+    font-family: consolas;
   }
 
 
@@ -59,8 +60,7 @@
     /* styling grid_item */
 
     .grid_item{
-        
-    
+        border-bottom: 5px solid; 
         text-align: center;
         padding: 25px;
     }
@@ -73,6 +73,7 @@
         background-color: blueviolet;
         color: white;
         font-weight: bold;
+         border-bottom: 5px solid black;
     }
 
 
@@ -82,17 +83,20 @@
         background-color: blueviolet;
         color: white;
         font-weight: bold;
+         border-bottom: 5px solid black;
     }
 
     #item3{
         background-color: chocolate;
         color: white;
         font-weight: bold;
+         border-bottom: 5px solid black;
     }
 
     #item5{
         background-color: lightblue;
         color: black;
         font-weight: bold;
+         border-bottom: 5px solid black;
     }
     
